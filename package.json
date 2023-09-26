@@ -1,0 +1,35 @@
+{
+  "name": "custom-annotation-samples",
+  "version": "1.0.0",
+  "description": "A repo containing examples on creating custom annotations in PDF.js Express",
+  "main": "server.js",
+  "scripts": {
+    "copy": "node scripts/copy.js",
+    "start": "npm run copy && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdfjs-express/custom-annotation-samples.git"
+  },
+  "keywords": [
+    "pdfjs",
+    "test",
+    "samples",
+    "custom",
+    "annotation"
+  ],
+  "author": "Logan Bittner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdfjs-express/custom-annotation-samples/issues"
+  },
+  "homepage": "https://github.com/pdfjs-express/custom-annotation-samples#readme",
+  "dependencies": {
+    "@pdftron/pdfjs-express": "^7.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "fs-extra": "^9.0.1"
+  }
+}
